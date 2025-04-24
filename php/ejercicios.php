@@ -40,3 +40,86 @@ if ($suma <50 )
     ?>
 </body>
 </html>
+</*?php
+
+$suma = rand(1,500);
+echo $suma;
+
+$suma = rand(1,500);
+echo $suma;
+
+$suma = rand(1,500);
+echo $suma;
+
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+$suma = rand(1,500);
+echo $suma;
+
+
+ 
+
+
+
+
+    ?>
+</*?php
+
+for ($i = 0; $i < 30; $i++) {
+    $suma = rand(1, 500);
+    echo $suma . "</*br>";
+}
+
+?>
