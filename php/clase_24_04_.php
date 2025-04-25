@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formulaio</title>
+    <a href="/a>
 </head>
 <body>
-<?php
-$suma = rand(1, 100);
-echo $suma;
-?>
+    <?php 
 
+ 
+    ?>
     
 </body>
-</html>
+</html> 
+// lace de embio php en phtml metodo post
