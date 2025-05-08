@@ -1,7 +1,7 @@
 <?php 
     $fruta=$_POST['fruta'];
     $frutaa_pellido=$_POST['fruta apellido'];
-    <
+    
 
 
     echo $verdura."<br>";
