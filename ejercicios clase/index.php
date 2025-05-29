@@ -24,9 +24,10 @@ if (!$result) {
         th {
             background-color: #eee;
         }
+    
+         
         .es_impar {
-            background-color: #eee;
-        
+            background-color:rgb(88, 8, 15);
         }
     </style>
 </head>
@@ -45,7 +46,8 @@ if (!$result) {
         </tr>
     </thead>
     <tbody>
-        <?php while ($fila = mysqli_fetch_assoc($result)) { 
+        <?php 
+        while ($fila = mysqli_fetch_assoc($result)) { 
              $clase = ($fila ["ID"] %2 != 0) ? 'es_impar' : '';
             ?>
             
