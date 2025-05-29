@@ -46,22 +46,14 @@ if (!$result) {
         </tr>
     </thead>
     <tbody>
-        <?php 
-        while ($fila = mysqli_fetch_assoc($result)) { 
-             $clase = ($fila ["ID"] %2 != 0) ? 'es_impar' : '';
+        <?php while ($fila = mysqli_fetch_assoc($result)) { 
+             $clase = ($fila ['ID'] %2 != 0) ? 'es_impar' : '';
             ?>
             
            
-        <tr>
-            <?
-            $clase
-            ?>
-            <td><?php 
+        <tr class=" <?php echo $clase; ?>">
             
-            echo $fila['ID']; 
-            
-            
-            ?></td> 
+            <td><?php echo $fila['ID']; ?></td> 
             <td><?php echo $fila['Name']; ?></td>
             <td><?php echo $fila['Last_name']; ?></td>
             <td><?php echo $fila['Phone']; ?></td>
