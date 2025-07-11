@@ -1,0 +1,28 @@
+<php?>
+    include('conexion.php');
+    $sql = "select * from agenda WHERE ID=".$_GET['id']
+    $consulta = mysql_query($sql,$link);
+    if (isset($consulta))
+    {
+        $fila = mysql_fetch_array($consulta);
+    }
+
+</php>
+
+<form id="form1" name="form1" method="post" action="editar.php">
+Nombres
+<input type="text" name="txtNombres" id="txtNombres" value="<?php echo $fila['Nombres']?>"/><br />
+Dirección
+<input type="text" name="txtDireccion" id="txtDireccion" value="<?php echo $fila['Direccion']?>"/><br />
+Telefono
+<input type="text" name="txtTelefono" id="txtTelefono" value="<?php echo $fila['Telefono']?>"/><br />
+Email
+<input type="text" name="txtEmail" id="txtEmail" value="<?php echo $fila['Email']?>"/><br />
+Celular
+<input type="text" name="txtCelular" id="txtCelular" value="<?php echo $fila['Celular']?>"/><br />
+Profesion
+<input type="hidden" name="txtId" id="txtId" value="<?php echo $_GET['id']?>"/><br />
+<input type="submit" name="button" id="button" value="Enviar"/>
+<input type="reset" name="button2" id="button2" value="Limpiar"/>
+</form>
+
